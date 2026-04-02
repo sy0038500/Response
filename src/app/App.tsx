@@ -10,8 +10,25 @@ import img3DiconsXmasTreeDynamicPremium1 from "figma:asset/a3c92c88785406af8e0c6
 import img3DiconsGiftDynamicPremium from "figma:asset/38c50a50c7caa90e9f978921384f95d103b8c3de.png";
 import img3DiconsLeafDynamicPremium from "figma:asset/2bf6a856ca0fdc99cb7d7c60b9c2835fa0b70475.png";
 import img3DiconsPictureDynamicPremium from "figma:asset/2199e2f6baa9eeb9c40075106a7fd4512a00a8e4.png";
-import imgSculpture from "figma:asset/46a64cdece3f20637c4509573cfc1134ea33afc5.png";
-import imgSculptureMobile from "figma:asset/cceceaf27999680eca7beeee46d8ca04594e18b1.png";
+// ── 빛초롱 빛 조형물 이미지 (Frame17) ──
+import imgBit1 from "figma:asset/46a64cdece3f20637c4509573cfc1134ea33afc5.png";
+import imgBit2 from "figma:asset/f62b816f989e175972942543a3cac06a50048bb3.png";
+import imgBit3 from "figma:asset/ece298d0ec2c16f10310d45724b276a6035cb503.png";
+import imgBit4 from "figma:asset/3461c9a09f6c09ba7a93a18804ee14caff767c10.png";
+import imgBit5 from "figma:asset/f0f64250a4bb5300af56e030d72b4c3f68dbb606.png";
+// ── 마켓 포토스팟 이미지 (Frame17) ──
+import imgMkt0 from "figma:asset/cceceaf27999680eca7beeee46d8ca04594e18b1.png";
+import imgMkt1 from "figma:asset/b22490d8555e61a3243c614c89525d38c4b7c8d7.png";
+import imgMkt2 from "figma:asset/55b1b062a48ed4d2175c27ad31555f90caf17993.png";
+import imgMkt3 from "figma:asset/ae08e5f9803d54ca5e4a6646bbc6f6002f4ddd38.png";
+import imgMkt4 from "figma:asset/ab33551cf9477fccc92c02c3c1e617f9bb994700.png";
+import imgMkt5 from "figma:asset/7815174a64ca2d32ab191491353995d4b59e16d6.png";
+import imgMkt6 from "figma:asset/dd504d7be4ed23ce0d3b84f258a8bd07c5089d9c.png";
+import imgMkt7 from "figma:asset/d94d735e849e34654111146df4954cd0f45f8ccd.png";
+import imgMkt8 from "figma:asset/44044abf48f70d556a9d423e1b1b9b209feab0f6.png";
+import imgMkt9 from "figma:asset/ad4c15d53db8ffc288291266422c8055facb577b.png";
+import imgMkt10 from "figma:asset/3e82055d0694034f7c0b04bc090e9de58498a6d4.png";
+// ── Instagram 카드 이미지 ──
 import imgInstagramCard0 from "figma:asset/75243453a1e16740576c88f91322eabbea169b2b.png";
 import imgInstagramCard1 from "figma:asset/d5ec03f4c8090bac2754a5b4a6c491b89dea6657.png";
 import imgInstagramCard2 from "figma:asset/471294ab34cf9e17225277337511c46295a91f15.png";
@@ -21,6 +38,7 @@ import imgInstagramCard5 from "figma:asset/85f5cb98b7eb289f1822f11acd720fe16c74c
 import imgInstagramCard6 from "figma:asset/96655e62852061f3b8a704b5ce5ea320480f98c5.png";
 import imgInstagramCard7 from "figma:asset/3881a386505a22f8ea66c5ad88332324c468e0ca.png";
 import imgInstagramCard8 from "figma:asset/34e81bc0493210a3ae47d2b6ba058949e3853f73.png";
+// ── 아카이브 이미지 ──
 import imgArchive1 from "figma:asset/cfd41533fba532ecaa8c365e00318ef214822994.png";
 import imgArchive2 from "figma:asset/a351d6cf56595602af7dfb03c5acbdc9739e0b63.png";
 import imgArchive3 from "figma:asset/3b084f664a3e7ac16cd1cbdce2f615ec63187761.png";
@@ -79,22 +97,107 @@ const navCards = [
   },
 ];
 
-const sculptureData = [
+// ── 빛초롱 빛 조형물 카드 데이터 (5개) ──
+const sculptureDataBit = [
   {
-    filter: "빛초롱 빛 조형물",
     title: "시등의 순간",
-    subtitle: "ㅡ",
     desc: "1887년 3월, 경복궁 건청궁에서 밝혀진 최초의 전등을 LED 영상과 한지 등(燈)을 통해 재현합니다. 옛 사람들이 넋을 놓고 바라본 첫 점등의 마법 같은 순간을 함께 느껴보세요.",
     location: "청계광장~광통교",
-    img: imgSculpture,
+    img: imgBit1,
   },
   {
-    filter: "마켓 포토스팟",
-    title: "산타마을 포토스팟",
-    subtitle: "ㅡ",
+    title: "갓",
+    desc: "힙한 트렌드로 재조명된 조선시대 선비의 '갓'을 모티브로 한 조명 연출로, 전통과 현대가 어우러진 글로벌 한국 문화를 선보입니다.",
+    location: "광통교~광교",
+    img: imgBit2,
+  },
+  {
+    title: "청계의 빛 : 청계천의 과거",
+    desc: "청계천 복원 20주년을 기념하여 제작된 서울빛초롱축제 특별전 작품입니다. 서울의 근현대사와 함께 '판자촌'과 '수표석'으로 서민들의 삶을 따뜻하게 재조명합니다.",
+    location: "광교~장통교",
+    img: imgBit3,
+  },
+  {
+    title: "빛의 오로라",
+    desc: "삼일교 하단의 프로젝션과 레이저로 연출하여 청계천에서 오로라를 보고 즐길 수 있습니다.",
+    location: "장통교~삼일교",
+    img: imgBit4,
+  },
+  {
+    title: "어가행렬",
+    desc: "2024년 서울빛초롱축제에서 다시 보고 싶은 조형물 1위! 종묘대제의 큰 의례인 임금행차, 조선시대의 어가행렬을 모티브로 연출하여 역사 속 서울(한양)에서 전통과 현대가 어우러진 빛의 연희를 함께 즐길 수 있습니다.",
+    location: "우이교~쌍한교",
+    img: imgBit5,
+  },
+];
+
+// ── 마켓 포토스팟 카드 데이터 (11개) ──
+const sculptureDataMarket = [
+  {
+    title: "산타마을 곳곳에 마련된 크리스마스 포토존을 찾아 행복한 추억을 남겨보세요.",
     desc: "겨울동화 속 산타마을의 시작을 알리는 산타마을 동화책, 오감을 자극하는 호두까기 인형과 진저브레드 쿠키의 집, 산타마을의 전경을 배경으로 담을 수 있는 거울 포토존까지 놓치지 말고 모두 만나보세요!",
     location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
-    img: imgSculptureMobile,
+    img: imgMkt0,
+  },
+  {
+    title: "① 산타마을 동화책",
+    desc: "겨울동화 속 산타마을에 오신 여러분을 환영합니다! 마켓 입구에서 만나보실 수 있는 동화책이 어려분을 산타마을로 안내합니다.",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt1,
+  },
+  {
+    title: "② 호두까기 인형의 집",
+    desc: "호두까기, 발레리나 인형과 함께 연극의 한 장면 같은 포토존에서 사진을 찍어보세요. 포토존에서 흘러나오는 클래식한 음악이 마치 무대 속 주인공이 된 듯한 기분을 느끼게 해 줄 거에요!",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt2,
+  },
+  {
+    title: "③ 행운의 목마",
+    desc: "2026년은 붉은 말의 해! 산타마을이 궁금했던 행운의 목마가 크리스마스 장식으로 드레스코드를 맞춰 입고 놀러왔어요.",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt3,
+  },
+  {
+    title: "④ 진저브레드 쿠키의 집",
+    desc: "산타마을을 진저브레드 쿠키 향으로 가득 채우는 과자집이에요. 진저브레드 쿠키의 집에서는 소원 편지도 접수 받고 있으니 크리스마스 소원이 있다면 여기서 알려주세요!",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt4,
+  },
+  {
+    title: "⑤ 산타마을 급행열차",
+    desc: "산타가 두고 간 크리스마스 선물을 가득 싣고 산타마을 급행열차가 도착했어요!",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt5,
+  },
+  {
+    title: "⑥ 눈꽃 분수대",
+    desc: "눈꽃 분수대는 눈송이가 가득 담긴 산타마을의 명물이에요. 산타마을에는 분수대 꼭대기에 눈송이를 넣으면 행운이 찾아온다는 소문이 있는데요, 직접 눈송이를 던져 확인해보세요!",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt6,
+  },
+  {
+    title: "⑦ 회전목마 티켓부스",
+    desc: "이곳에서 루돌프 회전목마 탑승을 위한 티켓을 받을 수 있습니다. 산타마을 스탬프 투어를 완료한 누구나 탑승 티켓을 받으실 수 있어요!",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt7,
+  },
+  {
+    title: "⑧ 거울 포토존",
+    desc: "캔디케인을 닮은 거울 포토존에서는 산타마을 빌리지 전경을 배경으로 사진을 남길 수 있어요.",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt8,
+  },
+  {
+    title: "⑨ 크리스마스 요정의 집",
+    desc: "크리스마스 요정이 잠시 머무는 집이에요. 따뜻한 벽난로에서 앞에서 몸을 녹이는 요정과 함께 사진을 찍어보세요.",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt9,
+  },
+  {
+    title: "⑩ 산타마을 이정표",
+    desc: "산타마을의 끝을 안내하는 이정표입니다. 겨울동화 속 산타마을에서의 하루는 어떠셨나요? 산타마을을 모두 구경하고 이곳에서 인증 사진을 남겨보세요!",
+    location: "산타마을 입구, 산타마을 놀이광장, 산타마을 마켓 빌리지",
+    img: imgMkt10,
   },
 ];
 
@@ -137,8 +240,10 @@ function LocationPin() {
 }
 
 export default function App() {
-  const [sculptureIndex, setSculptureIndex] = useState(0);
+  // 0 = 빛초롱 빛 조형물, 1 = 마켓 포토스팟
   const [activeFilter, setActiveFilter] = useState(0);
+  // 현재 카테고리 내 카드 인덱스
+  const [sculptureIndex, setSculptureIndex] = useState(0);
   const [socialTab, setSocialTab] = useState(0);
   const [carouselIndex, setCarouselIndex] = useState(0);
   const [activeArchiveTab, setActiveArchiveTab] = useState(0);
@@ -166,7 +271,9 @@ export default function App() {
     setCarouselIndex((prev) => Math.min(maxCarouselIndex, prev + 1));
   };
 
-  const currentSculpture = sculptureData[sculptureIndex];
+  // 현재 카테고리에 맞는 카드 배열
+  const currentList = activeFilter === 0 ? sculptureDataBit : sculptureDataMarket;
+  const currentSculpture = currentList[sculptureIndex];
 
   return (
     <div className="bg-[#04080b] w-full min-h-screen overflow-x-hidden">
@@ -308,14 +415,14 @@ export default function App() {
               주요 조형물
             </h2>
 
-            {/* Filter Buttons */}
+            {/* Filter Buttons — 카테고리 전환, 인덱스 리셋 */}
             <div className="flex gap-4 items-center">
               {["빛초롱 빛 조형물", "마켓 포토스팟"].map((label, i) => (
                 <button
                   key={i}
                   onClick={() => {
                     setActiveFilter(i);
-                    setSculptureIndex(i);
+                    setSculptureIndex(0); // 카테고리 전환 시 첫 번째 카드로 리셋
                   }}
                   className={`px-4 md:px-5 py-1.5 rounded-full text-[12px] md:text-[16px] lg:text-[20px] tracking-tight transition-colors ${
                     activeFilter === i
@@ -329,14 +436,29 @@ export default function App() {
               ))}
             </div>
 
-            {/* Sculpture Cards */}
+            {/* 카드 인덱스 표시 */}
+            <div className="flex items-center gap-1">
+              {currentList.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setSculptureIndex(i)}
+                  className={`rounded-full transition-all duration-300 ${
+                    i === sculptureIndex
+                      ? "bg-white w-4 h-2"
+                      : "bg-white/40 w-2 h-2"
+                  }`}
+                />
+              ))}
+            </div>
+
+            {/* Sculpture Card */}
             <div className="flex flex-col md:flex-row gap-4 items-stretch">
               {/* Photo */}
               <div className="flex-1 min-w-0 rounded-[12px] overflow-hidden bg-[#cca1a1] relative min-h-[220px]">
                 <img
                   src={currentSculpture.img}
                   alt="조형물"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
               </div>
               {/* Description */}
@@ -358,24 +480,24 @@ export default function App() {
                     </p>
                   </div>
                 </div>
-                {/* Arrow Buttons */}
+                {/* Arrow Buttons — 같은 카테고리 내 카드 이동 */}
                 <div className="flex items-center gap-2 mt-4 justify-end">
                   <button
-                    onClick={() => {
-                      const next = sculptureIndex > 0 ? sculptureIndex - 1 : sculptureData.length - 1;
-                      setSculptureIndex(next);
-                      setActiveFilter(next);
-                    }}
+                    onClick={() =>
+                      setSculptureIndex((prev) =>
+                        prev > 0 ? prev - 1 : currentList.length - 1
+                      )
+                    }
                     className="w-8 h-10 md:w-10 md:h-12 lg:w-[50px] lg:h-[50px] rounded-full border border-[#59433a] flex items-center justify-center text-[#59433a] hover:bg-[#59433a]/10 transition-colors"
                   >
                     ←
                   </button>
                   <button
-                    onClick={() => {
-                      const next = sculptureIndex < sculptureData.length - 1 ? sculptureIndex + 1 : 0;
-                      setSculptureIndex(next);
-                      setActiveFilter(next);
-                    }}
+                    onClick={() =>
+                      setSculptureIndex((prev) =>
+                        prev < currentList.length - 1 ? prev + 1 : 0
+                      )
+                    }
                     className="w-8 h-10 md:w-10 md:h-12 lg:w-[50px] lg:h-[50px] rounded-full border border-[#59433a] flex items-center justify-center text-[#59433a] hover:bg-[#59433a]/10 transition-colors"
                   >
                     →
@@ -559,7 +681,7 @@ export default function App() {
             {archiveItems.map((item, i) => (
               <div
                 key={i}
-                className="flex flex-col shrink-0 rounded-[12px] overflow-hidden bg-white shadow-[4px_4px_10px_0px_rgba(0,0,0,0.25)]"
+                className="flex flex-col shrink-0 rounded-[12px] overflow-hidden bg-white shadow-[4px_4px_10px_0px_rgba(0,0,0,0.25)] group"
                 style={{ width: "clamp(150px, 22vw, 300px)" }}
               >
                 {/* Photo */}
@@ -567,7 +689,7 @@ export default function App() {
                   <img
                     src={item.img}
                     alt={item.title}
-                    className="absolute inset-0 w-full h-full object-cover rounded-t-[12px]"
+                    className="absolute inset-0 w-full h-full object-cover rounded-t-[12px] transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
                 {/* Text */}
