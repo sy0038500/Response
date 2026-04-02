@@ -1,32 +1,32 @@
 import { useState, useEffect } from "react";
 import svgDesktop from "../imports/svg-tncomu8gd9";
 import svgMobile from "../imports/svg-mj1e9nohxx";
-import imgFrame1 from "../assets/a97cb445b4e1034d6d21dbd8d0519c8dc5f4f6fc.png";
-import imgFrame2 from "../assets/08362fd938ed44f8247ce72759fbb225c629d035.png";
-import imgHeaderOverlay from "../assets/4e0113d4f1d8e23bed29b43927af4f1806b8e05d.png";
-import img3DiconsWreathDynamicPremium from "../assets/40f29f7120386198a429bf2dbf5aefd4424a49c5.png";
-import img3DiconsXmasTreeDynamicPremium from "../assets/075cbcc903a90c6f80f736e9b4e70b4666ee4359.png";
-import img3DiconsXmasTreeDynamicPremium1 from "../assets/a3c92c88785406af8e0c676d1a7850638a446c54.png";
-import img3DiconsGiftDynamicPremium from "../assets/38c50a50c7caa90e9f978921384f95d103b8c3de.png";
-import img3DiconsLeafDynamicPremium from "../assets/2bf6a856ca0fdc99cb7d7c60b9c2835fa0b70475.png";
-import img3DiconsPictureDynamicPremium from "../assets/2199e2f6baa9eeb9c40075106a7fd4512a00a8e4.png";
-import imgSculpture from "../assets/46a64cdece3f20637c4509573cfc1134ea33afc5.png";
-import imgSculptureMobile from "../assets/cceceaf27999680eca7beeee46d8ca04594e18b1.png";
-import imgInstagramCard0 from "../assets/75243453a1e16740576c88f91322eabbea169b2b.png";
-import imgInstagramCard1 from "../assets/d5ec03f4c8090bac2754a5b4a6c491b89dea6657.png";
-import imgInstagramCard2 from "../assets/471294ab34cf9e17225277337511c46295a91f15.png";
-import imgInstagramCard3 from "../assets/3bf34d15e45faff9eee784bfa0d5963ae791470c.png";
-import imgInstagramCard4 from "../assets/3716793169d759cf6a7673b2a081cb301cfcd851.png";
-import imgInstagramCard5 from "../assets/85f5cb98b7eb289f1822f11acd720fe16c74c1fc.png";
-import imgInstagramCard6 from "../assets/96655e62852061f3b8a704b5ce5ea320480f98c5.png";
-import imgInstagramCard7 from "../assets/3881a386505a22f8ea66c5ad88332324c468e0ca.png";
-import imgInstagramCard8 from "../assets/34e81bc0493210a3ae47d2b6ba058949e3853f73.png";
-import imgArchive1 from "../assets/cfd41533fba532ecaa8c365e00318ef214822994.png";
-import imgArchive2 from "../assets/a351d6cf56595602af7dfb03c5acbdc9739e0b63.png";
-import imgArchive3 from "../assets/3b084f664a3e7ac16cd1cbdce2f615ec63187761.png";
-import imgArchive4 from "../assets/271b953e592e0c6bbebfb99a02bcaddf128e02eb.png";
-import imgArchive5 from "../assets/d8814dc426659c6deeb99377d6382f9e9ac88cbd.png";
-import imgArchive6 from "../assets/7fa67216256b8632be87c6dd5c7ee261542ea47e.png";
+import imgFrame1 from "figma:asset/a97cb445b4e1034d6d21dbd8d0519c8dc5f4f6fc.png";
+import imgFrame2 from "figma:asset/08362fd938ed44f8247ce72759fbb225c629d035.png";
+import imgHeaderOverlay from "figma:asset/4e0113d4f1d8e23bed29b43927af4f1806b8e05d.png";
+import img3DiconsWreathDynamicPremium from "figma:asset/40f29f7120386198a429bf2dbf5aefd4424a49c5.png";
+import img3DiconsXmasTreeDynamicPremium from "figma:asset/075cbcc903a90c6f80f736e9b4e70b4666ee4359.png";
+import img3DiconsXmasTreeDynamicPremium1 from "figma:asset/a3c92c88785406af8e0c676d1a7850638a446c54.png";
+import img3DiconsGiftDynamicPremium from "figma:asset/38c50a50c7caa90e9f978921384f95d103b8c3de.png";
+import img3DiconsLeafDynamicPremium from "figma:asset/2bf6a856ca0fdc99cb7d7c60b9c2835fa0b70475.png";
+import img3DiconsPictureDynamicPremium from "figma:asset/2199e2f6baa9eeb9c40075106a7fd4512a00a8e4.png";
+import imgSculpture from "figma:asset/46a64cdece3f20637c4509573cfc1134ea33afc5.png";
+import imgSculptureMobile from "figma:asset/cceceaf27999680eca7beeee46d8ca04594e18b1.png";
+import imgInstagramCard0 from "figma:asset/75243453a1e16740576c88f91322eabbea169b2b.png";
+import imgInstagramCard1 from "figma:asset/d5ec03f4c8090bac2754a5b4a6c491b89dea6657.png";
+import imgInstagramCard2 from "figma:asset/471294ab34cf9e17225277337511c46295a91f15.png";
+import imgInstagramCard3 from "figma:asset/3bf34d15e45faff9eee784bfa0d5963ae791470c.png";
+import imgInstagramCard4 from "figma:asset/3716793169d759cf6a7673b2a081cb301cfcd851.png";
+import imgInstagramCard5 from "figma:asset/85f5cb98b7eb289f1822f11acd720fe16c74c1fc.png";
+import imgInstagramCard6 from "figma:asset/96655e62852061f3b8a704b5ce5ea320480f98c5.png";
+import imgInstagramCard7 from "figma:asset/3881a386505a22f8ea66c5ad88332324c468e0ca.png";
+import imgInstagramCard8 from "figma:asset/34e81bc0493210a3ae47d2b6ba058949e3853f73.png";
+import imgArchive1 from "figma:asset/cfd41533fba532ecaa8c365e00318ef214822994.png";
+import imgArchive2 from "figma:asset/a351d6cf56595602af7dfb03c5acbdc9739e0b63.png";
+import imgArchive3 from "figma:asset/3b084f664a3e7ac16cd1cbdce2f615ec63187761.png";
+import imgArchive4 from "figma:asset/271b953e592e0c6bbebfb99a02bcaddf128e02eb.png";
+import imgArchive5 from "figma:asset/d8814dc426659c6deeb99377d6382f9e9ac88cbd.png";
+import imgArchive6 from "figma:asset/7fa67216256b8632be87c6dd5c7ee261542ea47e.png";
 
 const instagramCards = [
   imgInstagramCard0,
@@ -279,7 +279,7 @@ export default function App() {
               {navCards.map((card, i) => (
                 <div
                   key={i}
-                  className="flex flex-col justify-between overflow-hidden rounded-[12px] p-4 shrink-0"
+                  className="flex flex-col justify-between overflow-hidden rounded-[12px] p-4 shrink-0 group"
                   style={{
                     background: card.bg,
                     width: "clamp(200px, 32vw, 419px)",
@@ -295,7 +295,7 @@ export default function App() {
                     </p>
                   </div>
                   <div className="flex justify-end">
-                    <img src={card.icon} alt="" className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px] object-cover" />
+                    <img src={card.icon} alt="" className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px] object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 group-hover:drop-shadow-lg" />
                   </div>
                 </div>
               ))}
@@ -332,14 +332,12 @@ export default function App() {
             {/* Sculpture Cards */}
             <div className="flex flex-col md:flex-row gap-4 items-stretch">
               {/* Photo */}
-              <div className="flex-1 min-w-0 rounded-[12px] overflow-hidden bg-[#cca1a1]">
-                <div className="relative w-full" style={{ paddingBottom: "60%" }}>
-                  <img
-                    src={currentSculpture.img}
-                    alt="조형물"
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                </div>
+              <div className="flex-1 min-w-0 rounded-[12px] overflow-hidden bg-[#cca1a1] relative min-h-[220px]">
+                <img
+                  src={currentSculpture.img}
+                  alt="조형물"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
               </div>
               {/* Description */}
               <div className="flex-1 min-w-0 bg-white rounded-[12px] p-4 md:p-5 lg:p-6 flex flex-col justify-between">
@@ -363,13 +361,21 @@ export default function App() {
                 {/* Arrow Buttons */}
                 <div className="flex items-center gap-2 mt-4 justify-end">
                   <button
-                    onClick={() => setSculptureIndex((prev) => (prev > 0 ? prev - 1 : sculptureData.length - 1))}
+                    onClick={() => {
+                      const next = sculptureIndex > 0 ? sculptureIndex - 1 : sculptureData.length - 1;
+                      setSculptureIndex(next);
+                      setActiveFilter(next);
+                    }}
                     className="w-8 h-10 md:w-10 md:h-12 lg:w-[50px] lg:h-[50px] rounded-full border border-[#59433a] flex items-center justify-center text-[#59433a] hover:bg-[#59433a]/10 transition-colors"
                   >
                     ←
                   </button>
                   <button
-                    onClick={() => setSculptureIndex((prev) => (prev < sculptureData.length - 1 ? prev + 1 : 0))}
+                    onClick={() => {
+                      const next = sculptureIndex < sculptureData.length - 1 ? sculptureIndex + 1 : 0;
+                      setSculptureIndex(next);
+                      setActiveFilter(next);
+                    }}
                     className="w-8 h-10 md:w-10 md:h-12 lg:w-[50px] lg:h-[50px] rounded-full border border-[#59433a] flex items-center justify-center text-[#59433a] hover:bg-[#59433a]/10 transition-colors"
                   >
                     →
