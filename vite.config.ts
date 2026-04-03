@@ -23,6 +23,8 @@ function figmaAssetPlugin() {
 }
 
 export default defineConfig({
+    base: '/Response/',
+  
   plugins: [
     figmaAssetPlugin(),
     // The React and Tailwind plugins are both required for Make, even if
